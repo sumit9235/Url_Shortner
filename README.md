@@ -30,7 +30,7 @@ Responses:
 - **Method:** `POST`
 - **Description:** Log in with a registered user account.
 - **Request Body:**
-```json
+  ```json
   {
    "username": "any",
    "password": "any"
@@ -42,14 +42,14 @@ Responses:
 500 Internal Server Error: Server error
 
 ### 3. URL Shorten
-Endpoint: /url/shorten
-Method: POST
-Description: Shorten a long URL.
+-**Endpoint:** `/url/shorten`
+-**Method:** `POST`
+-**Description:** `Shorten a long URL.`
 -**Request Body:**
- ```json
-{
-  "longUrl": "any"
-}
+  ```json
+  {
+   "longUrl": "any"
+  }
 Request Headers:
 Authorization: Token for authentication (required)
 Responses:
