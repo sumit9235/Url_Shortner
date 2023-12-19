@@ -80,7 +80,7 @@
         }
       }
     },
-    "/url/short": {
+    "/url/shorten": {
       "post": {
         "description": "",
         "parameters": [

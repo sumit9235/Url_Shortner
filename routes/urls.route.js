@@ -9,7 +9,7 @@ const apiKey = process.env.apiKey;
 
 
 // controller for shortening urls
-urlRouter.post("/short",authenticate,async (req, res) => {
+urlRouter.post("/shorten",authenticate,async (req, res) => {
     const { longUrl } = req.body;
     const user= req.body.userid;
     try {
