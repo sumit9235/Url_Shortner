@@ -48,9 +48,9 @@ Responses:
 -**Request Body:**
   ```json
   {
-   "longUrl": "any"
+    "longUrl": "any"
   }
-Request Headers:
+-**Request Headers:**
 Authorization: Token for authentication (required)
 Responses:
 200 OK: URL shortened successfully
