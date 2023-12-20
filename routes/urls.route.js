@@ -5,7 +5,7 @@ const { UrlModel } = require("../models/url.model");
 const { authenticate } = require("../middlewares/Authenticate.middleware");
 const urlRouter = express.Router();
 
-const apiKey = process.env.apiKey;
+const apiKey = process.env.apiKey || "F4SC6V5JvqGjSqnp10hv1dUrQwG1PoB6QkP7mt5cV9HfA";
 
 
 // controller for shortening urls
